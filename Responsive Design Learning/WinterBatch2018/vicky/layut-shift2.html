@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+        .box1{
+            width: 300px;
+            height: 500px;
+            border: 1px dashed red;
+            display: flex;
+            background-color: black;
+
+        }
+        .box{
+            position: relative;
+            top: -501px;
+            left: 303px;
+            display: inline;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .box3{
+            width: 90%;
+            height: 250px;
+            border: 1px dashed red;
+
+            background-color:blue;
+
+
+        }
+        .box4{
+            width: 90%;
+            height: 250px;
+            border: 1px dashed red;
+
+            background-color: aqua;
+
+        }
+        @media  screen and (max-width: 800px) {
+            .box {
+                display: block;
+                background-color: yellow;
+
+
+            }
+            .box3{
+                width: 300px;
+                height: 500px;
+                border: 1px dashed red;
+                display: flex;
+                background-color: yellow;
+
+            }
+            .box4{
+                width: 300px;
+                height: 500px;
+                border: 1px dashed red;
+                display: flex;
+                background-color: green;
+
+            }
+        }
+        @media screen and (max-width: 500px) and (min-width: 200px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+
+</div>
+
+<div class="box">
+    <div class="box3">
+
+    </div>
+    <div class="box4">
+
+    </div>
+</div>
+
+</body>
+</html>
