@@ -1,0 +1,52 @@
+body{
+    color: #5bc0de;
+
+}
+
+
+
+.img{
+
+    margin-bottom: 172px;
+    margin-left: 351px;
+    position: absolute;
+    left: -101px;
+    top: 191px;
+
+}
+.big-box{
+    position: relative;
+    bottom: -583px;
+    left: 647px;
+
+}
+.box1{
+
+    position: absolute;
+    top: -181px;
+    font-size: 20px;
+    left: -564px;
+
+
+
+}
+.box2{
+    position: absolute;
+    top: -181px;
+    left: -332px;
+    font-size: 20px;
+}
+.box3{
+    position: absolute;
+    top: -181px;
+    left: -185px;
+    font-size: 20px;
+
+}
+.btnn
+{
+    position: absolute;
+    top: -95px;
+    left: 544px;
+    color: #4cae4c;
+}
